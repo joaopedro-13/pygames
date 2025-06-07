@@ -28,9 +28,9 @@ MOEDA_TAMANHO = (20, 20)
 background_img = pygame.image.load(r'Assets/Ocean_8/6.png').convert()
 
 # barco
-barco_sprite_img = pygame.image.load(r'Assets/PNG/boat01.png').convert_alpha()
+barco_sprite_img = pygame.image.load(r'Assets/PNG/barcow.png').convert_alpha()
 # Opcionalmente, ajuste o tamanho do sprite
-barco_sprite_img = pygame.transform.smoothscale(barco_sprite_img, (80, 40))
+barco_sprite_img = pygame.transform.smoothscale(barco_sprite_img, (80, 60))
 
 #mar
 sea_sprite = pygame.image.load(r'Assets/PNG/mar001.png').convert()
